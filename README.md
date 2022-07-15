@@ -20,3 +20,7 @@ npm run dev
 npm run file -- src/index.ts
 ```
 
+- Mude o nome do arquivo para que as variáves de ambiantes possam ser definidas em mode de teste
+```bash
+mv .env.development.exemple .env.development
+```
